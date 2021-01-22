@@ -6,8 +6,8 @@ Lesson: https://www.phpdevs.pl/programowanie-obiektowe/3-this
 
 class Person
 {
-    private $name = 'Jan Kowalski';
-    private $city = 'Warszawa';
+    private string $name = 'Jan Kowalski';
+    private string $city = 'Warszawa';
 
     public function getName(): string
     {
@@ -23,3 +23,4 @@ class Person
 $person = new Person();
 echo $person->getName();
 echo $person->getCity();
+
