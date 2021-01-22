@@ -14,5 +14,6 @@ for ($number = 0; $number <= 100; $number++) {
         }
     }
 }
-echo 'Sum even numbers: '.$evenSum;
-echo 'Even numbers greater than 50: '.$evenCount;
+echo 'Sum even numbers: ' . $evenSum;
+echo 'Even numbers greater than 50: ' . $evenCount;
+

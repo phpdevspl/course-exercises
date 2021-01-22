@@ -8,5 +8,6 @@ $side = 5;
 
 $area = $side ** 2;
 if ($area === 25) {
-    echo 'Area: '.$area;
+    echo 'Area: ' . $area;
 }
+

@@ -7,6 +7,6 @@ Lesson: https://www.phpdevs.pl/struktury-kontrolne/5-petla-while
 
 $number = 50;
 while ($number > 0) {
-    echo $number.' ';
+    echo $number . ' ';
     $number -= 8;
 }

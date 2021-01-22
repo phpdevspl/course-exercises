@@ -14,7 +14,8 @@ $currentYear = 2017;
 
 $age = 0;
 foreach ($people as $person) {
-    echo $person['name'].', ';
+    echo $person['name'] . ', ';
     $age += $currentYear - $person['birth'];
 }
-echo 'Total age: '.$age;
+echo 'Total age: ' . $age;
+

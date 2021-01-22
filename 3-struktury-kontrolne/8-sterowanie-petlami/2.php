@@ -10,5 +10,6 @@ foreach ($users as $user) {
     if ($user === 'Marek') {
         break;
     }
-    echo $user.' ';
+    echo $user . ' ';
 }
+

@@ -8,8 +8,9 @@ $number = 20;
 do {
     if ($number % 2 === 1) {
         if ($number <= 40 || $number >= 60) {
-            echo $number.' ';
+            echo $number . ' ';
         }
     }
     $number++;
 } while ($number <= 80);
+

@@ -13,9 +13,10 @@ $people = 34;
 $inTeam = 4;
 $withoutTeam = $people % $inTeam;
 if ($withoutTeam === 0) {
-    echo 'Teams: '.($people / $inTeam);
+    echo 'Teams: ' . ($people / $inTeam);
 } elseif ($withoutTeam === 1) {
     echo 'Too few people!';
 } else {
-    echo 'Missing: '.($inTeam - $withoutTeam);
+    echo 'Missing: ' . ($inTeam - $withoutTeam);
 }
+

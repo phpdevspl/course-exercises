@@ -12,4 +12,4 @@ function rectangleArea(int $sideA, int $sideB): int
     return $sideA * $sideB;
 }
 
-echo 'Rectangle area: '.rectangleArea($sideA, $sideB);
+echo 'Rectangle area: ' . rectangleArea($sideA, $sideB);

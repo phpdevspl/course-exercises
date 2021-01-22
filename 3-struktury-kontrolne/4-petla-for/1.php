@@ -5,5 +5,6 @@ Lesson: https://www.phpdevs.pl/struktury-kontrolne/4-petla-for
 */
 
 for ($number = 50; $number > 0; $number -= 8) {
-    echo $number.' ';
+    echo $number . ' ';
 }
+
